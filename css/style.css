@@ -24,6 +24,25 @@ p {
     font-size: 16px;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
 
 .navbar-transparent {
 	background-color: #2C82C9;
@@ -41,7 +60,6 @@ p {
 .navbar-transparent .navbar-brand,
 .navbar-transparent .navbar-nav > li > a {
   color: white;
-  background-color: #2C82C9;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,6 +68,7 @@ p {
 .navbar-transparent .navbar-brand:focus {
   color: white;
 }
+
 
 .centered {
 	text-align: center;
@@ -128,6 +147,7 @@ p {
 
 .social a {
 	font-size: 35px;
+	color: #428bca;
 }
 
 .socialh a {
